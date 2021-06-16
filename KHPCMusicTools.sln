@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicEncoder", "MusicEncoder\MusicEncoder.csproj", "{2313F12B-F09E-4C25-BEE8-4CA2CE4C744C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicInfo", "MusicInfo\MusicInfo.csproj", "{7E76528B-ADCF-4F19-8F71-1BE582B76444}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiEncoder", "MultiEncoder\MultiEncoder.csproj", "{224590F7-7F0A-4B23-98F4-79BBB78BD63F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2313F12B-F09E-4C25-BEE8-4CA2CE4C744C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2313F12B-F09E-4C25-BEE8-4CA2CE4C744C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2313F12B-F09E-4C25-BEE8-4CA2CE4C744C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2313F12B-F09E-4C25-BEE8-4CA2CE4C744C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E76528B-ADCF-4F19-8F71-1BE582B76444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E76528B-ADCF-4F19-8F71-1BE582B76444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E76528B-ADCF-4F19-8F71-1BE582B76444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E76528B-ADCF-4F19-8F71-1BE582B76444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224590F7-7F0A-4B23-98F4-79BBB78BD63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224590F7-7F0A-4B23-98F4-79BBB78BD63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224590F7-7F0A-4B23-98F4-79BBB78BD63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224590F7-7F0A-4B23-98F4-79BBB78BD63F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FF7AACA-7B5D-48D6-B6C7-8D6E5C0F8B82}
+	EndGlobalSection
+EndGlobal
