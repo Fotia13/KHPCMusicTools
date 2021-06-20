@@ -162,7 +162,7 @@ namespace MusicInfo
             if (command.Equals("extract"))
             {
                 uint ogg_size = (uint)entry.Length - start_offset;
-                while (ogg_size > stream_size)
+                while (ogg_size > stream_size + vorb_header_size)
                 {
                     ogg_size = ogg_size - 1;
                 }
