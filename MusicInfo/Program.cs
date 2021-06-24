@@ -162,10 +162,6 @@ namespace MusicInfo
             if (command.Equals("extract"))
             {
                 uint ogg_size = (uint)entry.Length - start_offset;
-                while (ogg_size > stream_size + vorb_header_size)
-                {
-                    ogg_size = ogg_size - 1;
-                }
                 byte[] ogg = new byte[ogg_size];
                 Array.Copy(entry, start_offset, ogg, 0, ogg_size);
                 File.WriteAllBytes(Path.Combine(Path.GetDirectoryName(AppContext.BaseDirectory), (i + 1) + ".ogg"), ogg);
