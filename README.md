@@ -6,8 +6,8 @@ Converts WAV files to Kingdom Hearts PC music format <br/>
 Use this for every track except KH1 Dive Into The Heart(music132.win32.scd)
 ##### Usage:
 MusicEncoder <InputSCD/Dir> <InputWAV/Dir> [Quality] <br/>
-Quality is an optional parameter that ranges from 0 to 10, by default is 7 <br/>
-you can change it if the song isnt looping correctly ingame
+Quality is an optional parameter that ranges from 0 to 10, by default is 10 <br/>
+you can change it to reduce filesize, but that can interfere with custom loops
 #### Multi Encoder:
 Converts WAV files to Kingdom Hearts PC music format, use this for KH1 Dive Into The Heart(music132.win32.scd)
 ##### Usage:
@@ -15,8 +15,8 @@ MultiEncoder <InputSCD/Dir> [Quality] <br/>
 Put the WAVs in the multiencoder folder <br/>
 Rename them starting from 1.wav until you fulfil the number of tracks <br/>
 In Dive Into The Heart the last one would be 8.wav <br/>
-Quality is an optional parameter that ranges from 0 to 10, by default is 7 <br/>
-you can change it if the song isnt looping correctly ingame
+Quality is an optional parameter that ranges from 0 to 10, by default is 10 <br/>
+you can change it to reduce filesize, but that can interfere with custom loops
 #### How to Input Loops:
 ##### Full Loop:
 WAV must have LoopStart and LoopEnd tags <br/>
