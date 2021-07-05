@@ -24,7 +24,7 @@ namespace MultiEncoder
             if (args.Length > 0)
             {
                 string inputSCD = args[0];
-                int Quality = 7;
+                int Quality = 10;
                 if (args.Length > 1)
                 {
                     Quality = Convert.ToInt32(args[1]);

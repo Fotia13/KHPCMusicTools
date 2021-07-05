@@ -25,7 +25,7 @@ namespace MusicEncoder
             {
                 string inputSCD = args[0];
                 string inputWAV = args[1];
-                int Quality = 7;
+                int Quality = 10;
                 if (args.Length > 2)
                 {
                     Quality = Convert.ToInt32(args[2]);
@@ -268,7 +268,7 @@ namespace MusicEncoder
                 Array.Copy(entry, newEntry, extradata_offset + 0x20);
                 Array.Copy(seek_table, 0, newEntry, extradata_offset + 0x20, seek_table.Length);
                 Array.Copy(ogg, 0, newEntry, extradata_offset + 0x20 + seek_table.Length, ogg.Length);
-                File.Delete(oggPath);
+                //File.Delete(oggPath);
                 return newEntry;
             }
 
