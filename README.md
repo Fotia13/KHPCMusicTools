@@ -1,6 +1,6 @@
 # KHPC-Music-Tools
 Tutorial: https://www.youtube.com/watch?v=BnuQA9fDcog <br/>
-Track Locations: https://docs.google.com/spreadsheets/d/1Z16-I8FbuVzXqCg0uhPkpvxeNz2xrJnA/edit#gid=1851343023
+Track Locations: https://docs.google.com/spreadsheets/d/1JMAhUSeEf3r-njF2-8EBX8mUDVa0xaLs/edit#gid=1851343023
 #### Music Encoder:
 Converts WAV files to Kingdom Hearts PC music format <br/>
 Use this for every track except KH1 Dive Into The Heart(music132.win32.scd)
